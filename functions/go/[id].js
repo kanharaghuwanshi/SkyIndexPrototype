@@ -7,7 +7,7 @@
 
 const LINKS = {
   "1": {
-    primary: "https://example.com/one",
+    primary: "https://skyindex.vercel.app/index.html",
     fallback: "https://example.com/one-fallback"
   },
   "2": {
