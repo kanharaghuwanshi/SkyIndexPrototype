@@ -11,8 +11,8 @@ const LINKS = {
     fallback: "https://example.com/one-fallback"
   },
   "2": {
-    primary: "https://example.com/two",
-    fallback: "https://example.com/two-fallback"
+    primary: "https://github.com/kanharaghuwanshi/SkyIndex",
+    fallback: "git@github.com:kanharaghuwanshi/SkyIndex.git"
   },
   "3": {
     primary: "https://example.com/three",
