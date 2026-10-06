@@ -12,7 +12,7 @@ const LINKS = {
   },
   "2": {
     primary: "https://github.com/kanharaghuwanshi/SkyIndex",
-    fallback: "git@github.com:kanharaghuwanshi/SkyIndex.git"
+    fallback: "https://example.com/two-fallback"
   },
   "3": {
     primary: "https://example.com/three",
