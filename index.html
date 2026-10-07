@@ -8,32 +8,70 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <main class="page">
-    <section class="link-card" aria-label="Quick links">
-      <h1>Quick Links</h1>
+  <div class="page">
+    <main class="gateway">
+      <header class="brand">
+        <svg class="logo" viewBox="0 0 48 48" width="48" height="48" role="img" aria-labelledby="logo-title" xmlns="http://www.w3.org/2000/svg">
+          <title id="logo-title">SkyIndex logo</title>
+          <rect width="48" height="48" rx="10" fill="#0B2447"/>
+          <!-- ascending bar-chart structure -->
+          <rect x="9" y="31" width="7" height="8" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+          <rect x="20.5" y="26" width="7" height="13" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+          <rect x="32" y="21" width="7" height="18" rx="1.5" fill="#FFFFFF" fill-opacity="0.9"/>
+          <!-- upward growth arrow -->
+          <path d="M8 25 L19 17.5 L25 21.5 L36 10.5" fill="none" stroke="#F0560F" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+          <path d="M31.5 8.5 L40 7.5 L39 16 Z" fill="#F0560F" stroke="#F0560F" stroke-width="1.2" stroke-linejoin="round"/>
+        </svg>
+        <h1>SkyIndex</h1>
+        <p class="tagline">Real-Time Airfare Price Index for India</p>
+      </header>
 
-      <div class="links">
-        <a class="link-button" href="/go/1">
-          <span>SkyIndex Prototype</span>
-          <span aria-hidden="true">→</span>
-        </a>
+      <nav class="links-panel" aria-label="SkyIndex project links">
+        <p class="links-label">Project links</p>
+        <ul class="links">
+          <li>
+            <a class="link-button" href="/go/1">
+              <span class="link-text">
+                <span class="link-title">SkyIndex Prototype</span>
+                <span class="link-desc">Interactive project prototype</span>
+              </span>
+              <span class="link-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="link-button" href="/go/2">
+              <span class="link-text">
+                <span class="link-title">Github Repository</span>
+                <span class="link-desc">Source code and project files</span>
+              </span>
+              <span class="link-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="link-button" href="/go/3">
+              <span class="link-text">
+                <span class="link-title">Concept Video</span>
+                <span class="link-desc">Video overview of the concept</span>
+              </span>
+              <span class="link-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+          <li>
+            <a class="link-button" href="/go/4">
+              <span class="link-text">
+                <span class="link-title">FAQ</span>
+                <span class="link-desc">Common questions about the project</span>
+              </span>
+              <span class="link-arrow" aria-hidden="true">→</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </main>
 
-        <a class="link-button" href="/go/2">
-          <span>Github Repository</span>
-          <span aria-hidden="true">→</span>
-        </a>
-
-        <a class="link-button" href="/go/3">
-          <span>Concept Video</span>
-          <span aria-hidden="true">→</span>
-        </a>
-
-        <a class="link-button" href="/go/4">
-          <span>FAQ</span>
-          <span aria-hidden="true">→</span>
-        </a>
-      </div>
-    </section>
-  </main>
+    <footer class="footer">
+      <p>SkyIndex &middot; Airfare Price Index (APIx) project</p>
+    </footer>
+  </div>
 </body>
 </html>
